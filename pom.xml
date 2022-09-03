@@ -3,37 +3,20 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>edu.coursera.concurrent</groupId>
-    <artifactId>miniproject_0</artifactId>
+    <artifactId>miniproject_1</artifactId>
     <packaging>jar</packaging>
     <version>0.0</version>
-    <name>miniproject_0</name>
+    <name>miniproject_1</name>
 
     <properties>
-        <pcdp.version>0.0.4-SNAPSHOT</pcdp.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <repositories>
-        <repository>
-            <id>pcdp-repo</id>
-            <url>https://raw.github.com/habanero-maven/hjlib-maven-repo/mvn-repo-pcdp-${pcdp.version}/</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-resources-plugin</artifactId>
             <version>2.4.3</version>
-        </dependency>
-        <dependency>
-            <groupId>edu.rice.pcdp</groupId>
-            <artifactId>pcdp-core</artifactId>
-            <version>${pcdp.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
