@@ -3,10 +3,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>edu.coursera.concurrent</groupId>
-    <artifactId>miniproject_2</artifactId>
+    <artifactId>miniproject_3</artifactId>
     <packaging>jar</packaging>
     <version>0.0</version>
-    <name>miniproject_2</name>
+    <name>miniproject_3</name>
 
     <properties>
         <pcdp.version>0.0.4-SNAPSHOT</pcdp.version>
